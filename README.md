@@ -2,8 +2,9 @@
 
 Web Programming with Python and JavaScript
 
-# Live preview link: 
-## <a href = "https://ramrachai.github.io/CS50-project0/" > ***Please click here*** </a>
+# Live preview link:
+
+## <a href = "https://ramrachai.github.io/CS50-project0/" > **_Please click here_** </a>
 
 # Requirements
 
@@ -19,11 +20,7 @@ Design a personal webpage about yourself, one of your interests, or any other to
 
 3.  Your website must have at least one stylesheet file. //done
 
-<<<<<<< HEAD
-> :arrow_right: added a custom stylesheet. \_name:\* **style.min.css** ; \_location:\* **./dist/css/style.min.css**
-=======
-> :arrow_right: added a custom stylesheet. \_name:* **style.min.css** ; _location:_ **./dist/css/style.min.css**
->>>>>>> refs/remotes/origin/master
+> :arrow_right: added a custom stylesheet. \_name:\_ **style.min.css** ; \_location:\_ **./dist/css/style.min.css**
 
 4.  Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 
@@ -42,7 +39,7 @@ Design a personal webpage about yourself, one of your interests, or any other to
 
 7.  Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 
-    > :arrow*right: added style.scss in the root directory. *name\* **style.scss**
+    > :arrow_right: added style.scss in the root directory. \_name\_ **style.scss**
     > :arrow_right: 6 variables used.
     > 1 $title-color: #ca0074;
      2 $text-color: rgb(56, 56, 56);
