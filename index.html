@@ -68,19 +68,35 @@
         </form>
       </div>
     </nav>
-    <div class="alert alert-success" role="alert">
+    <div id="intro">
+      <div class="card" style="width: 17rem;">
+        <img class="card-img-top" src="./images/me.webp" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">I am Ramrachai Marma</h5>
+          <p class="card-text">
+            This is Project0 assignment of Harvard's
+            <strong>Web Programming with Python and JavaScript</strong> course.
+            Course no. CS50w
+          </p>
+          <a href="#explore" class="btn btn-primary">Please Explore</a>
+        </div>
+      </div>
+    </div>
+    <div id="explore" class="alert alert-success text-center mt-5" role="alert">
       <strong>
-        Using &lt;ul&gt; &lt;ol&gt; &lt;table&gt; &lt;img/&gt; tags</strong
+        Using &lt;ul&gt;, &lt;ol&gt;, &lt;table&gt;, &lt;img/&gt; tags</strong
       >
     </div>
-    <table class="table table-striped table-inverse table-responsive">
+
+    <table class="table table-hover table-bordered">
       <thead class="thead-inverse">
         <tr>
           <th>Product Name</th>
           <th>Product Image</th>
           <th>Specification</th>
         </tr>
-
+      </thead>
+      <tbody>
         <tr>
           <td>Laptop one</td>
           <td><img src="./images/1.png" alt="" width="100" /></td>
@@ -130,32 +146,18 @@
             </ol>
           </td>
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td scope="row"></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td scope="row"></td>
-          <td></td>
-          <td></td>
-        </tr>
       </tbody>
     </table>
 
-    <div class="alert alert-primary" role="alert">
+    <div class="alert alert-primary text-center" role="alert">
       <strong> Using 2 column bootstrap grid </strong>
     </div>
     <div class="container">
-      <div class="row">
-        <h3 class="display-4">My services</h3>
-      </div>
+      <h3 class="display-4 text-center service-title">My services</h3>
       <div class="row">
         <div class="col-6">
           <div class="service">
-            <i> &lt;/&gt;</i>
+            <span> &lt;/&gt;</span>
             <h3>Web development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
@@ -167,7 +169,7 @@
         </div>
         <div class="col-6">
           <div class="service">
-            <i>&#9729;</i>
+            <span> &#9729; </span>
             <h3>Cloud Solution</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
@@ -182,7 +184,7 @@
       <div class="row">
         <div class="col-6">
           <div class="service">
-            <i> &#9760; </i>
+            <span> &#9760; </span>
             <h3>Bug fixing</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
@@ -194,7 +196,7 @@
         </div>
         <div class="col-6">
           <div class="service">
-            <i> &#9741;</i>
+            <span> &#9741; </span>
             <h3>Blockchain</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
@@ -205,6 +207,40 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="contact">
+      <h2 class="display-1">contact me</h2>
+      <form action="/" method="post" class="form">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            aria-describedby="emailHelpId"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            rows="3"
+            placeholder="Your message..."
+          ></textarea>
+        </div>
+      </form>
     </div>
 
     <!-- Optional JavaScript -->
