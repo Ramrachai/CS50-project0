@@ -19,7 +19,7 @@ Design a personal webpage about yourself, one of your interests, or any other to
 
 3.  Your website must have at least one stylesheet file.
 
-> :arrow*right: added a custom stylesheet. \_name:* **style.min.css** ; _location:_ **./dist/css/style.min.css**
+> :arrow_right: added a custom stylesheet. \_name:* **style.min.css** ; _location:_ **./dist/css/style.min.css**
 
 4.  Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 
