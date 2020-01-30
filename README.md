@@ -2,6 +2,9 @@
 
 Web Programming with Python and JavaScript
 
+# Live preview link: 
+"""<a href = "https://ramrachai.github.io/CS50-project0/" > Please click here </a> """
+
 # Requirements
 
 Design a personal webpage about yourself, one of your interests, or any other topic of your choice. The subject matter, look and feel, and design of the site are entirely up to you, subject to the following requirements:
