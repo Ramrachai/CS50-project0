@@ -42,15 +42,11 @@ Design a personal webpage about yourself, one of your interests, or any other to
 7.  Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 
 > :arrow_right: added style.scss in the root directory. \_name: **style.scss**
-> :arrow_right: 6 variables used.
-1 $title-color: #ca0074;
-2 $text-color: rgb(56, 56, 56);
-3 $pc-title-size: 2.2rem;
-4 $pc-text-size: 1rem;
-5 $mobile-title-size: 1.2rem;
-6 $mobile-text-size: 0.7rem;
+
+> :arrow_right: **6 variables used:**  $title-color, $text-color, $pc-title-size, $pc-text-size,  $mobile-title-size, $mobile-text-size
 
 > :arrow_right: used 2 SCSS nesting, inside **service** and **contact** section
+
 > :arrow_right: used 3 SCSS inheritance. **%gradient-bg** , **%gradient-bg-reverse**, **%gradient-text**
 
 8.  In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
