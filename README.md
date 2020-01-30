@@ -3,7 +3,7 @@
 Web Programming with Python and JavaScript
 
 # Live preview link: 
-"""<a href = "https://ramrachai.github.io/CS50-project0/" > Please click here </a> """
+""<a href = "https://ramrachai.github.io/CS50-project0/" > Please click here </a> ""
 
 # Requirements
 
