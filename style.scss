@@ -32,7 +32,7 @@ $text-color: rgb(56, 56, 56);
 $pc-title-size: 2.2rem;
 $pc-text-size: 1rem;
 $mobile-title-size: 1.2rem;
-$mobile-text-size: 0.7rem;
+$mobile-text-size: 0.85rem;
 
 html {
   scroll-behavior: smooth;
@@ -102,19 +102,44 @@ html {
 
 #contact {
   width: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
   h2 {
     @extend %gradient-text;
     text-transform: uppercase;
     padding: 30px;
     text-align: center;
   }
+  input[type="text"]:focus,
+  input[type="text"]:active {
+    box-shadow: 0 0 5px 0px #ca0074;
+    border-color: #ca0074;
+  }
+
+  input[type="email"]:focus,
+  input[type="email"]:active {
+    box-shadow: 0 0 5px 0px #ebd400;
+    border-color: #ebd400;
+  }
+
+  textarea:focus,
+  textarea:active {
+    box-shadow: 0 0 5px 0px #53c936;
+    border-color: #53c936;
+  }
+  button[type="submit"] {
+    @extend %gradient-bg-reverse;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
 }
 
 @media (max-width: 768px) {
   .service-title {
     font-size: 30px;
-    font-weight: bold;
   }
   .service {
     p {
@@ -126,6 +151,14 @@ html {
     }
     span {
       font-size: 30px;
+    }
+  }
+  #contact {
+    h2 {
+      font-size: 30px;
+    }
+    button[type="submit"] {
+      font-size: 16px;
     }
   }
 }
