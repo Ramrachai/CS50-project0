@@ -43,11 +43,11 @@ Design a personal webpage about yourself, one of your interests, or any other to
 
 > :arrow_right: added style.scss in the root directory. \_name: **style.scss**
 > :arrow_right: 6 variables used.
-> 1 $title-color: #ca0074;
+1 $title-color: #ca0074;
 2 $text-color: rgb(56, 56, 56);
-> 3 $pc-title-size: 2.2rem;
+3 $pc-title-size: 2.2rem;
 4 $pc-text-size: 1rem;
-> 5 $mobile-title-size: 1.2rem;
+5 $mobile-title-size: 1.2rem;
 6 $mobile-text-size: 0.7rem;
 
 > :arrow_right: used 2 SCSS nesting, inside **service** and **contact** section
